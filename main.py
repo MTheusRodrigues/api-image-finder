@@ -94,7 +94,7 @@ def get_original_images(query):
 
     print('Get images...')
 
-    return google_images
+    return jsonify(google_images)
 
 
 if __name__ == '__main__':
